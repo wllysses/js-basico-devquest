@@ -1,31 +1,37 @@
-function soma(num1, num2) {
-    let soma = num1 + num2
-    return `O valor da soma entre os números é ${soma}`
+function somar(num1, num2) {
+    const soma = num1 + num2
+    return `A soma entre os dois números é igual a ${soma}`
 }
 
-let resultadoSoma = soma(1, 3)
+const resultadoSoma = somar(1, 5)
 console.log(resultadoSoma)
 
+/*------------------------------------------------------- */
+
 function subtracao(num1, num2) {
-    let subtracao = num1 - num2
-    return `O valor da subtração entre os números é ${subtracao}`
+    const subtrair = num1 - num2
+    return `A subtração entre os dois números é igual a ${subtrair}`
 }
 
-let resultadoSubtracao = subtracao(6, 2)
+const resultadoSubtracao = subtracao(10, 2)
 console.log(resultadoSubtracao)
 
+/*------------------------------------------------------- */
+
 function multiplicacao(num1, num2) {
-    let multiplicacao = num1 * num2
-    return `O valor da multiplicação entre os números é ${multiplicacao}`
+    const multiplicar = num1 * num2
+    return `O resultado da multiplicação entre os dois números é igual a ${multiplicar}`
 }
 
-let resultadoMultiplicacao = multiplicacao(5, 5)
+const resultadoMultiplicacao = multiplicacao(5, 5)
 console.log(resultadoMultiplicacao)
 
+/*------------------------------------------------------- */
+
 function divisao(num1, num2) {
-    let divisao = num1 / num2
-    return `O valor da divisão entre os números é ${divisao}`
+    const dividir = num1 / num2
+    return `A divisão entre os dois números é igual a ${dividir}`
 }
 
-let resultadoDivisao = divisao(20 , 2)
+const resultadoDivisao = divisao(25, 5)
 console.log(resultadoDivisao)

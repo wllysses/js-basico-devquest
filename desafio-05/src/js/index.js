@@ -1,3 +1,4 @@
-for(let i = 0; i <= 10; i++) {
-    console.log(`O dobro de ${i} é ${i * 2}.`)
+for(let numero = 0; numero <= 10; numero++) {
+    let dobroDoNumero = numero * 2
+    console.log(`O dobro do número ${numero} é ${dobroDoNumero}`)
 }

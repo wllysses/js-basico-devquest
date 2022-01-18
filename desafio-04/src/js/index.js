@@ -1,3 +1,3 @@
-for(let i = 0; i <= 10; i++) {
-    console.log(`O número atual é o ${i}`)
+for(let numero = 0; numero <= 10; numero++) {
+    console.log(`O número atual é o ${numero}`)
 }
